@@ -1,0 +1,22 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Brain Games project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci": "npm ci",
+    "brain-games": "node bin/brain-games.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisimV/backend-project-44.git"
+  },
+  "author": "Anisim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anisimV/backend-project-44/issues"
+  },
+  "homepage": "https://github.com/anisimV/backend-project-44#readme"
+}
