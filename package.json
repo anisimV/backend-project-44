@@ -23,5 +23,9 @@
   "homepage": "https://github.com/anisimV/backend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0"
   }
 }
