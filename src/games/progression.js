@@ -27,7 +27,7 @@ const getRoundData = () => {
 
     const question = progression.join(' ')
 
-    return[question, correctAnswer]
+    return [question, correctAnswer]
 }
 
 const runProgressionGame = () => {

@@ -9,7 +9,7 @@ const getGcd = (number1, number2) => {
     let b = number2
 
     while (b !== 0) {
-        const remainder = a % b;
+        const remainder = a % b
         a = b
         b = remainder
     }
