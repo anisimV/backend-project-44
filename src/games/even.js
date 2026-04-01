@@ -7,7 +7,7 @@ const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)
 const isEven = number => number % 2 === 0
 
 const getRoundData = () => {
-  const question = getRandomNumber(1, 100);
+  const question = getRandomNumber(1, 100)
   const correctAnswer = isEven(question) ? 'yes' : 'no'
 
   return [String(question), correctAnswer]

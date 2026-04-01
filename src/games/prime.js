@@ -4,7 +4,7 @@ const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer
 
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
-const isPrime = number => {
+const isPrime = (number) => {
   if (number < 2) {
     return false
   }
