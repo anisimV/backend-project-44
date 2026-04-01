@@ -7,7 +7,6 @@ const runGame = (gameDescription, getRoundData) => {
   const name = cli()
   console.log(gameDescription)
 
-
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, correctAnswer] = getRoundData()
 
@@ -23,7 +22,7 @@ const runGame = (gameDescription, getRoundData) => {
     console.log('Correct!')
   }
 
-    console.log(`Congratulations, ${name}!`)
+  console.log(`Congratulations, ${name}!`)
 }
 
 export default runGame

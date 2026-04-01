@@ -4,7 +4,7 @@ const gameDescription = 'Answer "yes" if the number is even, otherwise answer "n
 
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
-const isEven = (number) => number % 2 === 0
+const isEven = number => number % 2 === 0
 
 const getRoundData = () => {
   const question = getRandomNumber(1, 100);
