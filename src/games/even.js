@@ -11,10 +11,10 @@ const getRoundData = () => {
   const correctAnswer = isEven(question) ? 'yes' : 'no'
 
   return [String(question), correctAnswer]
-};
+}
 
 const runEvenGame = () => {
   runGame(gameDescription, getRoundData)
-};
+}
 
 export default runEvenGame
