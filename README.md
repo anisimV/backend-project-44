@@ -3,6 +3,7 @@
 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=anisimV_backend-project-44&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=anisimV_backend-project-44)
 
+---
     Описание проекта
 Brain Games — это набор консольных математических игр на JavaScript.
 В проект входят игры:
@@ -23,6 +24,7 @@ npm (обычно устанавливается вместе с Node.js)
 PowerShell / CMD на Windows
 bash / zsh / WSL на Linux/macOS/Windows
 Проверить версии можно так:
+---
 ```bash
 node -v
 npm -v
